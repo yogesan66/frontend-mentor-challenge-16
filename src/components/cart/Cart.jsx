@@ -55,6 +55,7 @@ const Cart = ({confirmOrder}) => {
           <div className="bg-rose-100 py-3 rounded-md text-xs text-rose-900 flex items-center justify-center mb-4">
             <img
               src="/images/icon-carbon-neutral.svg"
+              alt="icon carbon neutral"
               className="mr-1 h-4 w-4"
             />
             This is a{" "}
@@ -69,7 +70,7 @@ const Cart = ({confirmOrder}) => {
 
       {cartList.length === 0 && (
         <div className="flex flex-col justify-center items-center py-3">
-          <img src="/images/illustration-empty-cart.svg" />
+          <img src="/images/illustration-empty-cart.svg" alt="empty cart" />
           <p className="text-rose-500 text-xs font-semibold">
             Your added items will appear here
           </p>

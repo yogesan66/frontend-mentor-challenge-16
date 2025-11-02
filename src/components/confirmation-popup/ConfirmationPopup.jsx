@@ -18,7 +18,7 @@ const ConfirmationPopup = ({closeModal}) => {
   return (
     <div className="fixed inset-0 flex justify-center items-end sm:items-center h-full w-full z-50 bg-black/50">
       <div className="bg-rose-50 rounded-lg p-7 w-full max-w-110">
-        <img src="/images/icon-order-confirmed.svg" className="h-9 w-9" />
+        <img src="/images/icon-order-confirmed.svg" alt="icon order confirmed" className="h-9 w-9" />
         <div className="mt-3">
           <p className="text-rose-900 font-bold text-3xl w-48 sm:w-full">Order Confirmed</p>
           <p className="text-rose-400 text-xs mt-2">
@@ -32,6 +32,7 @@ const ConfirmationPopup = ({closeModal}) => {
                 <div className="flex  gap-3">
                   <img
                     src={item.image.thumbnail}
+                    alt={item.name}
                     className="h-9 w-9 rounded-sm"
                   />
                   <div className="font-semibold text-xs flex flex-col gap-1 ">

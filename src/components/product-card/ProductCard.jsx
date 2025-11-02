@@ -37,6 +37,7 @@ const ProductCard = ({ product }) => {
       <div className="h-44 relative">
         <img
           src={imageSrc}
+          alt={product.name}
           className={`rounded-lg aspect-square h-full w-full ${
             quantity > 0 ? "outline-2 outline-brown rounded-lg" : ""
           }`}
