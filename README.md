@@ -100,7 +100,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [https://project-list-with-cart-yogesan.netlify.app/](https://project-list-with-cart-yogesan.netlify.app/)
+- Website - [https://product-list-with-cart-yogesan.netlify.app/](https://product-list-with-cart-yogesan.netlify.app/)
 - Frontend Mentor - [https://www.frontendmentor.io/profile/yogesan66](https://www.frontendmentor.io/profile/yogesan66)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
